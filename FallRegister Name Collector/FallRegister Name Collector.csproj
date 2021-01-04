@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>FallRegister_Name_Collector</RootNamespace>
+    <StartupObject>FallRegister_Name_Collector.Program</StartupObject>
+    <Copyright>© 2020 fallregister.com | Fall Register is not associated with the game "Fall Guys: Ultimate Knockout"</Copyright>
+    <Description>Fall Register Name Collector is a application to collect names from "Fall Guys: Ultimate Knockout".
+Those names will be available at https://fallregister.com.</Description>
+    <Authors>LeBogo @ https://lebogo.tk</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+</Project>
