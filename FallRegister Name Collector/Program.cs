@@ -130,7 +130,7 @@ namespace FallRegister_Name_Collector
                     {
                         string line;
                         string ownLog = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Player.log";
-                        string logPath = @"C:/Users/LeBogo/AppData/LocalLow/Mediatonic/FallGuys_client/Player.log";
+                        string logPath = @"c:\users\" + Environment.UserName + @"\appdata\LocalLow\Mediatonic\FallGuys_client\Player.log";
 
                         if (File.Exists(logPath))
                         {
